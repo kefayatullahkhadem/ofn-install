@@ -1,6 +1,9 @@
 ---
 domain: khadim.uk
+host_id: es-prod
 rails_env: production
+
+
 
 admin_email: shahidonkhadim@gmail.com
 
