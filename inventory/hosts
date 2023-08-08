@@ -151,10 +151,10 @@ us-prod
 # Spain
 
 [es-prod]
-khadimweb.com ansible_host=173.255.249.36
+khadimweb.com ansible_host=23.239.10.244
 
 [es-staging]
-staging.khadimweb.com ansible_host=173.255.249.36
+staging.khadimweb.com ansible_host=23.239.10.244
 
 [es:children]
 es-prod
