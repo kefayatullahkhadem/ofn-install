@@ -1,5 +1,5 @@
 ---
-domain: dev.khadim.uk
+domain: khadimweb.com
 host_id: es-prod
 rails_env: production
 
@@ -7,11 +7,11 @@ rails_env: production
 
 admin_email: shahidonkhadim@gmail.com
 
-mail_domain: khadim.uk
+mail_domain: khadimweb.com
 
 swapfile_size: 1G
 unicorn_timeout: 120
 
 certbot_domains:
-  - dev.khadim.uk
-  - www.dev.khadim.uk
+  - khadimweb.com
+  - www.khadimweb.com

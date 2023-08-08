@@ -10,13 +10,14 @@ language_packages:
   - language-pack-es-base
   - language-pack-en-base
   - language-pack-fr-base
-l10n_repo: https://github.com/openfoodfoundation/l10n_fr.git
+l10n_repo: https://github.com/openfoodfoundation/l10n_au.git
 timezone: Madrid
 
 # Used for the LetsEncrypt email setting
 developer_email: shahidonkhadim@gmail.com
 
 users_sysadmin:
+  - "{{ core_devs }}"
   - khadim
 
 maintenance_mode_message: >
