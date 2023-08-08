@@ -4,7 +4,7 @@
 user: root
 
 # User name for deployment
-deployment_user: root
+deployment_user: ofn-depyloyment
 
 # Connecting to the server
 #   ssh_pubkey - Location of the SSH public key file for the user created by
@@ -26,7 +26,7 @@ l10n_git_version: HEAD
 #----------------------------------------------------------------------
 # Default values (should be overridden in each server config)
 rails_env: staging
-host_id: ofn-staging
+host_id: es-prod
 admin_email: "shahidonkhadim@gmail.com"
 
 
