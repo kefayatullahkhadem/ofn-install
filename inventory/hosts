@@ -151,7 +151,7 @@ us-prod
 # Spain
 
 [es-prod]
-khadim.uk ansible_host=172.233.233.197
+dev.khadim.uk ansible_host=172.233.233.197
 
 [es-staging]
 staging.khadim.uk ansible_host=172.233.233.197

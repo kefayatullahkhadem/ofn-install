@@ -1,5 +1,5 @@
 ---
-domain: khadim.uk
+domain: dev.khadim.uk
 host_id: es-prod
 rails_env: production
 
@@ -13,5 +13,5 @@ swapfile_size: 1G
 unicorn_timeout: 120
 
 certbot_domains:
-  - khadim.uk
-  - www.khadim.uk
+  - dev.khadim.uk
+  - www.dev.khadim.uk
