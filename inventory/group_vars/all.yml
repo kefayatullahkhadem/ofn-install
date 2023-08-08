@@ -99,9 +99,9 @@ postgres_encoding: en_US.utf8
 # to the defaults if present. Make sure you use the "list" notation with the dashes!
 
 postgresql_version: "{% if ansible_distribution_major_version == '16' %}9.5{% elif ansible_distribution_major_version == '18' %}10{% else %}12{% endif %}"
-postgresql_data_dir: "/var/lib/postgresql/{{ postgresql_version }}/main"
-postgresql_bin_path: "/usr/lib/postgresql/{{ postgresql_version }}/bin"
-postgresql_config_path: "/etc/postgresql/{{ postgresql_version }}/main"
+postgresql_data_dir: "/var/lib/postgresql/14/main"
+postgresql_bin_path: "/usr/lib/postgresql/14/bin"
+postgresql_config_path: "/etc/postgresql/14/main"
 postgresql_daemon: postgresql
 postgresql_packages:
   - postgresql
