@@ -151,10 +151,14 @@ us-prod
 # Spain
 
 [es-prod]
-app.katuma.org ansible_host=116.203.60.113
+khadim.uk ansible_host=213.168.248.165
+
+[es-staging]
+staging.khadim.uk ansible_host=213.168.248.165
 
 [es:children]
 es-prod
+es-staging
 
 #------------------------------------------------------------------------------
 # France

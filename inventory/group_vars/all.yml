@@ -1,10 +1,10 @@
 ---
 
 # User name and password for running ansible on host
-user: ofn-admin
+user: root
 
 # User name for deployment
-deployment_user: ofn-deploy
+deployment_user: root
 
 # Connecting to the server
 #   ssh_pubkey - Location of the SSH public key file for the user created by
@@ -27,12 +27,12 @@ l10n_git_version: HEAD
 # Default values (should be overridden in each server config)
 rails_env: staging
 host_id: ofn-staging
-admin_email: "admin@{{ domain }}"
+admin_email: "shahidonkhadim@gmail.com"
 
 
 #----------------------------------------------------------------------
 # security role variables
-security_autoupdate_mail_to: "{{ developer_email }}"
+security_autoupdate_mail_to: "shahidonkhadim@gmail.com"
 security_autoupdate_blacklist:
   - nginx
   - nginx-common
