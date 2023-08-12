@@ -1,8 +1,0 @@
----
-
-domain: app.openfoodnetwork.it
-rails_env: production
-
-admin_email: admin@openfoodnetwork.it
-
-mail_domain: openfoodnetwork.it

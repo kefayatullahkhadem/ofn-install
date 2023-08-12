@@ -1,0 +1,17 @@
+---
+domain: labelleorange.es
+host_id: es-prod
+rails_env: production
+
+
+
+admin_email: shahidonkhadim@gmail.com
+
+mail_domain: khadimweb.com
+
+swapfile_size: 1G
+unicorn_timeout: 120
+
+certbot_domains:
+  - labelleorange.es
+  - www.labelleorange.es

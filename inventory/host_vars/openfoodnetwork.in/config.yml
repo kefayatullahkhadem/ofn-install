@@ -1,8 +1,0 @@
----
-
-domain: openfoodnetwork.in
-host_id: in-prod
-rails_env: production
-
-admin_email:
-
