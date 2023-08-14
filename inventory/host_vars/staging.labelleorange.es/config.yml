@@ -1,5 +1,5 @@
 ---
-domain: khadimweb.com
+domain: labelleorange.es
 host_id: es-prod
 rails_env: production
 
@@ -7,11 +7,11 @@ rails_env: production
 
 admin_email: shahidonkhadim@gmail.com
 
-mail_domain: ex4.mail.ovh.net
+mail_domain: fruits@labelleorange.es
 
 swapfile_size: 1G
 unicorn_timeout: 120
 
 certbot_domains:
-  - khadimweb.com
-  - www.khadimweb.com
+  - labelleorange.es
+  - www.labelleorange.es

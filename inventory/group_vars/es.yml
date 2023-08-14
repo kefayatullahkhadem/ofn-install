@@ -17,8 +17,8 @@ timezone: Madrid
 developer_email: shahidonkhadim@gmail.com
 
 users_sysadmin:
-  - "{{ core_devs }}"
   - khadim
 
 maintenance_mode_message: >
-  El lloc està en procés de manteniment temporal. Si us plau, torneu-ho a intentar més tard.
+  Une maintenance est en cours. Merci de patienter, la plateforme sera bientôt à nouveau disponible.
+  Veuillez nous excuser pour la gêne occasionnée

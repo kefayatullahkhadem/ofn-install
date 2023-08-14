@@ -7,11 +7,11 @@ rails_env: production
 
 admin_email: shahidonkhadim@gmail.com
 
-mail_domain: khadimweb.com
+mail_domain: ex4.mail.ovh.net
 
 swapfile_size: 1G
 unicorn_timeout: 120
 
 certbot_domains:
-  - labelleorange.es
-  - www.labelleorange.es
+  - khadimweb.com
+  - www.khadimweb.com
