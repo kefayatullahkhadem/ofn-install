@@ -237,19 +237,6 @@ puma_timeout: "{{ unicorn_timeout | default('30') }}"
 #----------------------------------------------------------------------
 # Core devs: users named here will have SSH access on all instances
 
-core_devs:
-  - maikel
-  - matt
-  - filipe
-  - jb
-  - david
-  - gaetan
-
-retired_core_devs:
-  - george
-  - pau
-  - stveep
-
 #----------------------------------------------------------------------
 # nginx config
 
