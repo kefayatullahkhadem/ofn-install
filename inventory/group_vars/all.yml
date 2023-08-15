@@ -4,7 +4,7 @@
 user: root
 
 # User name for deployment
-deployment_user: ofn-depyloyment
+deployment_user: labelleorange-depyloyment
 
 # Connecting to the server
 #   ssh_pubkey - Location of the SSH public key file for the user created by
@@ -27,12 +27,12 @@ l10n_git_version: HEAD
 # Default values (should be overridden in each server config)
 rails_env: staging
 host_id: ofn-staging
-admin_email: "shahidonkhadim@gmail.com"
+admin_email: "fruits@labelleorange.es"
 
 
 #----------------------------------------------------------------------
 # security role variables
-security_autoupdate_mail_to: "shahidonkhadim@gmail.com"
+security_autoupdate_mail_to: "fruits@labelleorange.es"
 security_autoupdate_blacklist:
   - nginx
   - nginx-common
@@ -85,9 +85,9 @@ multiredis_instances:
 
 #----------------------------------------------------------------------
 # Database variables
-db: openfoodnetwork
-test_db: ofn_test
-db_user: ofn_user
+db: labelleorange
+test_db: labelleorange_test
+db_user: labelleorange_users_db
 db_host: localhost
 postgres_encoding: en_US.utf8
 
@@ -145,7 +145,7 @@ debezium_version: "0.10.0.Final"
 
 #----------------------------------------------------------------------
 # App variables
-app: openfoodnetwork
+app: labelleorange
 # Paths
 app_user_home_path: "/home/{{ app_user }}"
 gem_path: "{{ app_user_home_path }}/.gem"
