@@ -1,0 +1,17 @@
+---
+domain: khadimweb.com
+host_id: es-prod
+rails_env: production
+
+
+
+admin_email: fruits@labelleorange.es
+
+mail_domain: fruits@labelleorange.es
+
+swapfile_size: 1G
+unicorn_timeout: 120
+
+certbot_domains:
+  - khadimweb.com
+  - www.khadimweb.com
