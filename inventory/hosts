@@ -152,10 +152,10 @@ us-prod
 
 
 [es-prod]
-khadimweb.com ansible_host=172.105.245.99
+labelleorange.es ansible_host=184.174.33.68
 
 [es-staging]
-staging.khadimweb.com ansible_host=172.105.245.99
+staging.labelleorange.es ansible_host=184.174.33.68
 
 [es:children]
 es-prod
